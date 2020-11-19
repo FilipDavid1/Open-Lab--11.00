@@ -33,16 +33,16 @@ namespace Open_Lab__11._00
             Console.WriteLine("numberOfBooks:" + numberOfBooks);
             Console.WriteLine("numberOfStudents:" + numberOfStudents);
             Console.WriteLine(" ");
-            foreach (var Student in studentsList)
+            foreach (var student in studentsList)
             {
-                Console.WriteLine(Student);
+                Console.WriteLine(student);
             }
 
             Console.WriteLine(" ");
 
-            foreach (var Book in booksList)
+            foreach (var book in booksList)
             {
-                Book.Show();
+                book.Show();
             }
 
         }
